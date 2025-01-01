@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pizza Menu</title>
+    <link href="styles.css" rel="stylesheet"/>
+  </head>
+  <body id="body_pizza">
+    <div class="menu">
+      <div class="content">
+        <section>
+        <h1>Pizza</h1> <h1><a href="https://sandbox.bulme.at/~song.jin/kebab.html">Kebab</a></h1> <h1><a href="https://sandbox.bulme.at/~song.jin/hamburg.html">Hamburger</a></h1>
+        </section>
+        <hr> <!--分割线-->
+        <section>
+          <article class="item">
+            <p class="flavor">Pizza Salami<img src="https://berettafarms.com/cdn/shop/articles/salami-pizza_2000_x_2000_150x.jpg?v=1601054958" alt="pizza icon"/>.............</p><p class="price">9.80</p><!--每篇博客文章,每条新闻报道,每个商品可以用 <article> 来封装,用于表示独立的内容块，通常用于封装页面中的独立、完整的内容部分，比如文章、博客帖子、新闻报道等-->
+          </article>
+          <article class="item">
+            <p class="flavor">BBQ Pizza<img src="https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/2caca97b-77f6-48e7-837d-62642c0c9861/Derivates/12591894-e010-4a02-b04e-2627d8374298.jpg" alt="pizza icon"/>................</p><p class="price">10.25</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Quiche Hawaii<img src="https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/603F9503-D9B4-460E-8454-3C4280B7629E/Derivates/324EED49-91A0-4AA9-AFC2-FC8C0231A2FB.jpg" alt="pizza icon"/>.........</p><p class="price">9.50</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Gemüsepizza<img src="https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/1AB6C80D-3D50-495A-A64E-555926D8B231/Derivates/0E627E3B-1573-4239-844B-4F69B42306F8.jpg" alt="pizza icon"/>............</p><p class="price">9.00</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Spargel-Quiche<img src="https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/EF847FC2-75EE-49B8-A40A-AAADC96D17FD/Derivates/56b525c4-08dc-4cf5-ae53-e2b94e2c9d63.jpg" alt="pizza icon"/>.......</p><p class="price">10.50</p>
+          </article>
+        </section>
+      </div>
+      <section class="form-container">
+        <h2>Bestellbereich</h2>
+        <h3>点单区</h3>
+        <form action="file:///E:/HTL_Informatik/MEDT/%E5%BB%BA%E7%BD%91%E7%AB%99/Neuer%20Ordner/%E7%82%B9%E9%A4%90%E6%88%90%E5%8A%9F.html">
+            <fieldset>
+                <legend>Pizzasorten 披萨种类</legend>
+                <input id="Pizza Salami" type="checkbox" name="Pizzasorten" value="Pizza Salami"> <label for="Pizza Salami">Pizza Salami</label><!--for功能是点击标签文字也可以选中id-->
+                <input id="BBQ Pizza" type="checkbox" name="Pizzasorten" value="BBQ Pizza"> <label for="BBQ Pizza">BBQ Pizza</label>
+                <input id="Quiche Hawaii" type="checkbox" name="Pizzasorten" value="Quiche Hawaii"> <label for="Quiche Hawaii">Quiche Hawaii</label>
+                <input id="Gemüsepizza" type="checkbox" name="Pizzasorten" value="Gemüsepizza"> <label for="Gemüsepizza">Gemüsepizza</label>
+                <input id="Spargel-Quiche" type="checkbox" name="Pizzasorten" value="Spargel-Quiche"> <label for="Spargel-Quiche">Spargel-Quiche</label>
+            </fieldset>
+            <fieldset>
+                <legend>Geschmacksvorlieben 口味偏好</legend>
+                <label><input id="sharf" type="radio" name="Geschmacksvorlieben" value="sharf"> sharf</label>
+                <label><input id="mild" type="radio" name="Geschmacksvorlieben" value="mild"> mild</label>
+            </fieldset>
+            <textarea name="Anmerkung" placeholder="Anmerkung" rows="4" cols="35" style="resize: none;"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+      </section>
+    </div>
+  </body>
+</html>

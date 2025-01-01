@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hamburger Menu</title>
+    <link href="styles.css" rel="stylesheet"/>
+  </head>
+  <body id="body_hamburg">
+    <div class="menu">
+      <div class="content">
+        <section>
+        <h1><a href="https://sandbox.bulme.at/~song.jin/index.html">Pizza</a></h1> <h1><a href="https://sandbox.bulme.at/~song.jin/kebab.html">Kebab</a></h1> <h1>Hamburger</h1>
+        </section>
+        <hr> <!--分割线-->
+        <section>
+          <article class="item">
+            <p class="flavor">Pulled-Pork-Burger<img src="https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/2F380FD9-92E1-402F-843F-7F3DF464D225/Derivates/73ff3042-02e9-4c85-a956-b015361c7759.jpg" alt="burger icon"/>..</p><p class="price">10.50</p><!--每篇博客文章,每条新闻报道,每个商品可以用 <article> 来封装,用于表示独立的内容块，通常用于封装页面中的独立、完整的内容部分，比如文章、博客帖子、新闻报道等-->
+          </article>
+          <article class="item">
+            <p class="flavor">Lachs-Burger<img src="https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/03C4A20A-BD3D-49D7-8C3F-99AC975C3B19/Derivates/AA13AE30-FAF9-4673-B0D1-9FCBE6E9A231.jpg" alt="burger icon"/>.............</p><p class="price">9.25</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Spätzle-Burger<img src="https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/be8aa606b8b2112982f75d439dcc3575/Derivates/64af7f2d6013c6a48e70da5c5dd9ed0c7880b913.jpg" alt="burger icon"/>..........</p><p class="price">9.50</p>
+          </article>
+        </section>
+      </div>
+      <section class="form-container">
+        <h2>Bestellbereich</h2>
+        <h3>点单区</h3>
+        <form action="file:///E:/HTL_Informatik/MEDT/%E5%BB%BA%E7%BD%91%E7%AB%99/Neuer%20Ordner/%E7%82%B9%E9%A4%90%E6%88%90%E5%8A%9F.html">
+            <fieldset>
+                <legend>Burgersorten 汉堡种类</legend>
+                <input id="Pulled-Pork-Burger" type="checkbox" name="burgersorten" value="Pulled-Pork-Burger"> <label for="Pulled-Pork-Burger">Pulled-Pork-Burger</label><!--for功能是点击标签文字也可以选中id-->
+                <input id="Lachs-Burger" type="checkbox" name="burgersorten" value="Lachs-Burger"> <label for="Lachs-Burger">Lachs-Burger</label>
+                <input id="Spätzle-Burger" type="checkbox" name="burgersorten" value="Spätzle-Burger"> <label for="Spätzle-Burger">Spätzle-Burger</label>
+            </fieldset>
+            <fieldset>
+                <legend>Geschmacksvorlieben 口味偏好</legend>
+                <label><input id="sharf" type="radio" name="Geschmacksvorlieben" value="sharf"> sharf</label>
+                <label><input id="mild" type="radio" name="Geschmacksvorlieben" value="mild"> mild</label>
+            </fieldset>
+            <textarea name="Anmerkung" placeholder="Anmerkung" rows="4" cols="35" style="resize: none;"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+      </section>
+    </div>
+  </body>
+</html>

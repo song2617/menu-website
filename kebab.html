@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kebab Menu</title>
+    <link href="styles.css" rel="stylesheet"/>
+  </head>
+  <body id="body_kebab">
+    <div class="menu">
+      <div class="content">
+        <section>
+        <h1><a href="https://sandbox.bulme.at/~song.jin/index.html">Pizza</a></h1> <h1>Kebab</h1> <h1><a href="https://sandbox.bulme.at/~song.jin/hamburg.html">Hamburger</a></h1>
+        </section>
+        <hr> <!--分割线-->
+        <section>
+          <article class="item">
+            <p class="flavor">Dönner<img src="https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/18DC96B0-067B-4FEC-A494-344E4384AC84/Derivates/14af0571-8d3f-4741-b219-8f06cd48d1b9.jpg" alt="kebab icon"/>........................</p><p class="price">6.50</p><!--每篇博客文章,每条新闻报道,每个商品可以用 <article> 来封装,用于表示独立的内容块，通常用于封装页面中的独立、完整的内容部分，比如文章、博客帖子、新闻报道等-->
+          </article>
+          <article class="item">
+            <p class="flavor">Puten-Döner<img src="https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/4084AE69-26FC-4A40-BE91-87D1793EF503/Derivates/872f39a3-bdcd-4ebc-9791-4a43625887a6.jpg" alt="kebab icon"/>..............</p><p class="price">8.50</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Dürüm<img src="https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/042c67b59e095b595baa3564cd54270d/Derivates/ff901248183872ef6b74f10a46d6b6bd190813e5.jpg" alt="kebab icon"/>..........................</p><p class="price">7.50</p>
+          </article>
+        </section>
+      </div>
+      <section class="form-container">
+        <h2>Bestellbereich</h2>
+        <h3>点单区</h3>
+        <form action="file:///E:/HTL_Informatik/MEDT/%E5%BB%BA%E7%BD%91%E7%AB%99/Neuer%20Ordner/%E7%82%B9%E9%A4%90%E6%88%90%E5%8A%9F.html">
+            <fieldset>
+                <legend>Kebabsorten Kebab种类</legend>
+                <input id="Dönner" type="checkbox" name="kebabsorten" value="Dönner"> <label for="Dönner">Dönner</label><!--for功能是点击标签文字也可以选中id-->
+                <input id="Puten-Döner" type="checkbox" name="kebabsorten" value="Puten-Döner"> <label for="Puten-Döner">Puten-Döner</label>
+                <input id="Dürüm" type="checkbox" name="kebabsorten" value="Dürüm"> <label for="Dürüm">Dürüm</label>
+            </fieldset>
+            <fieldset>
+                <legend>Geschmacksvorlieben 口味偏好</legend>
+                <label><input id="sharf" type="radio" name="Geschmacksvorlieben" value="sharf"> sharf</label>
+                <label><input id="mild" type="radio" name="Geschmacksvorlieben" value="mild"> mild</label>
+            </fieldset>
+            <textarea name="Anmerkung" placeholder="Anmerkung" rows="4" cols="35" style="resize: none;"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+      </section>
+    </div>
+  </body>
+</html>

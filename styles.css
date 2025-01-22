@@ -1,7 +1,7 @@
   #body_pizza {
     background-image: url(https://www.hormel.com/brands/hormel-pepperoni/wp-content/uploads/sites/3/Recipes_2400_Pepperoni_Cup_Crips_Sweet_Spicy_Basil_Pep_Hot_Honey-2048x853.jpg?1734733808);
     font-family: 'Pacifico', cursive;
-    font-size: 36px;
+    font-size: 36px;               
     color: #ffc400;                 /* 字体颜色（橙红色） */
     text-shadow: 2px 2px 5px #4e4e4e;  /* 阴影效果 */
     padding: 20px;
@@ -10,7 +10,7 @@
   #body_kebab {
     background-image: url(https://static.vecteezy.com/system/resources/previews/024/678/534/non_2x/shawarma-with-chicken-and-vegetables-arabic-style-generative-ai-free-photo.jpeg);
     font-family: 'Pacifico', cursive;
-    font-size: 36px;
+    font-size: 36px;               
     color: #ffc400;                 /* 字体颜色（橙红色） */
     text-shadow: 2px 2px 5px #4e4e4e;  /* 阴影效果 */
     padding: 20px;
@@ -19,12 +19,12 @@
   #body_hamburg {
     background-image: url(https://assets.website-files.com/5e8b520fee4cf185dde0feda/60b0a806b3d816a230df5dee_burger-main.jpg);
     font-family: 'Pacifico', cursive;
-    font-size: 36px;
+    font-size: 36px;               
     color: #ffc400;                 /* 字体颜色（橙红色） */
     text-shadow: 2px 2px 5px #4e4e4e;  /* 阴影效果 */
     padding: 20px;
   }
-
+  
   h1 {
     display: inline-block;/* 让 <p> 元素在行内显示，但同时它也保持了块级元素的一些特性，比如可以设置 width、height 等属性 */
     margin-top: 20px;
@@ -39,18 +39,18 @@
     text-align: center;
     margin-bottom: -20px;
   }
-
+  
   textarea {
     margin-left:3px;
     margin-top: 30px;
   }
-
-
+  
+  
   .menu {
     margin-left: 80px;
     display: flex;/* 使用 Flexbox 布局 弹性页面布局工具*/
   }
-
+ 
   .content {
     margin-right: 20px; /* 给表单留出一些间距 */
   }
@@ -61,7 +61,7 @@
     margin-top: 100px;
     margin-left: 400px; /* 将表单向右侧移动 */
     padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 添加阴影 */
+    box-shadow: 0 10px 10px rgb(255, 183, 0); /* 添加阴影 */
     border-radius: 8px; /* 圆角效果 */
     font-family: Arial, sans-serif; /* 设置普通的字体 */
     font-size: 16px;
@@ -81,60 +81,50 @@
     /* 添加阴影 */
     box-shadow: 0 2px 4px rgba(106, 106, 106, 0.39); /* 阴影效果：x方向偏移, y方向偏移, 模糊半径, 颜色 */
   }
-
+  
   hr {
     height: 4px;
     background-color: rgb(255, 140, 0);
-    border-color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0); 
     margin-top: 0px;
   }
-
-  .bottom-line {
-    margin-top: 25px;
-  }
-
-
+  
+  
   .item p {
     display: inline-block;/* 设置articel的子元素p的内联显示*/
     margin-top: 15px;
     margin-bottom: 10px;
     white-space: nowrap; /* 防止内容换行 */
   }
-
-  .flavor, .dessert {
+  
+  .flavor {
     text-align: left;
     width: 70%; /* 设置宽度为父元素artikel的75%*/
   }
-
+  
   .price {
     text-align: right;
     width: 30%;/* 设置宽度为父元素artikel的25%*/
   }
-
-
-  .address {
-    margin-bottom: 5px;
-  }
-
+  
+  
   a {
     color: rgb(255, 220, 21);
     text-decoration: none;
   }
-
+  
   a:visited {
     color: rgb(255, 242, 65);
   }
-
+  
   a:hover {
     color: rgb(244, 33, 9);
   }
-
+  
   a:active {
     color: rgb(255, 72, 0);
   }
 
   fieldset {
-    margin-top: 50px;
+    margin-top: 50px;   
   }
-
-
